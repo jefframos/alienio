@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8078849419638200529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3720520459846401595}
+  - component: {fileID: 8827402945625969380}
+  - component: {fileID: 3953157239556595556}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3720520459846401595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078849419638200529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 121.89134, y: 0.06250224, z: -30.631632}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8827402945625969380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078849419638200529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07953fcae5959a4da9a26730c3bce3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEntries:
+  - soundName: squash_1
+    clip: {fileID: 8300000, guid: f2e79bdabd83f90498a0e4736b574d14, type: 3}
+  - soundName: squash_2
+    clip: {fileID: 8300000, guid: 336e31f673de932469f5672f67af3841, type: 3}
+  - soundName: start
+    clip: {fileID: 8300000, guid: e2f74a673c227704f9ded021e2659382, type: 3}
+  - soundName: score
+    clip: {fileID: 8300000, guid: 22829a10042aa214cae5db15585efb81, type: 3}
+  - soundName: drop
+    clip: {fileID: 8300000, guid: ec00feb7046ae8d4687bc05a6296e44a, type: 3}
+  - soundName: applause
+    clip: {fileID: 8300000, guid: 1bf1f7cffaab5dc4da58f877edae0276, type: 3}
+  - soundName: bubbles
+    clip: {fileID: 8300000, guid: e42f5b76a9bad104996cef02675a8512, type: 3}
+  - soundName: move_1
+    clip: {fileID: 8300000, guid: 8422608ae21627645ad1ea7f509a6655, type: 3}
+  - soundName: move_2
+    clip: {fileID: 8300000, guid: 7719622cbe0d14e4fa171b43a3a30e52, type: 3}
+  - soundName: monster_1
+    clip: {fileID: 8300000, guid: 34fe97bcdaa431b409fa49827b0823e4, type: 3}
+  - soundName: monster_2
+    clip: {fileID: 8300000, guid: 619e6a25f9668b347977673f09bca49f, type: 3}
+  - soundName: monster_3
+    clip: {fileID: 8300000, guid: f7d210cdff338be499ac6661993b3715, type: 3}
+  - soundName: burp
+    clip: {fileID: 8300000, guid: c63abb180393b564d92df3cd454b1792, type: 3}
+  - soundName: coin
+    clip: {fileID: 8300000, guid: f5ff83ffb3d2b1d42b370f3b81e0c6ed, type: 3}
+  - soundName: levelUp
+    clip: {fileID: 8300000, guid: ac5cd152ec09b284fa241b46651df775, type: 3}
+  - soundName: score
+    clip: {fileID: 8300000, guid: 22829a10042aa214cae5db15585efb81, type: 3}
+  - soundName: fart
+    clip: {fileID: 8300000, guid: ceadbed4300c39241bd80750a9fb365d, type: 3}
+  - soundName: punchline
+    clip: {fileID: 8300000, guid: 1cae533ead346c14eaf69ad8e335bc46, type: 3}
+  - soundName: whoosh
+    clip: {fileID: 8300000, guid: 5d93dc9644bfe484e9be4b1c9e36b255, type: 3}
+  - soundName: beep
+    clip: {fileID: 8300000, guid: f4960430b99524e4eabcfa272d8cb2cc, type: 3}
+  - soundName: music1
+    clip: {fileID: 8300000, guid: 2de1bcee7273c144f92246351af83e7b, type: 3}
+  - soundName: city
+    clip: {fileID: 8300000, guid: 491355e9aebfa5a46a598208896d43e0, type: 3}
+  masterMixer: {fileID: 24100000, guid: 2d1e11303089d0c4083f5d4fab356330, type: 2}
+--- !u!81 &3953157239556595556
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078849419638200529}
+  m_Enabled: 1
